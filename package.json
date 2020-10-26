@@ -1,0 +1,16 @@
+{
+  "name": "mysqltest",
+  "version": "1.0.0",
+  "description": "Test af sql",
+  "main": "testconn.js",
+  "scripts": {
+    "start": "node testconn.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RRasmus",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
